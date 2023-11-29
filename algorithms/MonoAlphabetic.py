@@ -1,4 +1,4 @@
-def mono_alphabetic(input_str, keyword):
+def mono_alphabetic_cipher(input_str, keyword):
     alpalist = list('abcdefghijklmnopqrstuvwxyz')
     result = ''
 

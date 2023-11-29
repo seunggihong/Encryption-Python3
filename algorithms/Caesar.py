@@ -8,9 +8,3 @@ def caesar_cipher(input_str, num=3):
                 result += alpalist[j-3]
 
     return result
-
-
-if __name__ == "__main__":
-    input_str = 'seunggihong'
-    cipher = caesar_cipher(input_str)
-    print(cipher)

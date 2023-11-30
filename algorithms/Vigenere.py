@@ -1,5 +1,5 @@
 def vigenere_cipher(input_str, key):
-    alpalist = list('abcdefghijklmnopqrstuvwxyz')
+    alpalist = 'abcdefghijklmnopqrstuvwxyz'
     metrix = []
 
     for i in range(26):

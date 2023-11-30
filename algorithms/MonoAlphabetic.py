@@ -1,9 +1,8 @@
 def mono_alphabetic_cipher(input_str, keyword):
-    alpalist = list('abcdefghijklmnopqrstuvwxyz')
+    alpalist = 'abcdefghijklmnopqrstuvwxyz'
     result = ''
 
     keyword = list(dict.fromkeys(keyword))
-    input_str = list(input_str)
 
     for i in range(len(alpalist)):
         if alpalist[i] == keyword[-1]:
